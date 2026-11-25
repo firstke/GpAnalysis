@@ -11,3 +11,6 @@ dist/
 .coverage
 htmlcov/
 .DS_Store
+.github
+.vscode
+.codebuddy
