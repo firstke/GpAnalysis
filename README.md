@@ -20,13 +20,21 @@ python -m gp --name CodeBuddy
 
 ## 股票分析示例
 
-启动 Streamlit 应用：
+推荐以桌面窗口启动（不打开外部浏览器）：
+
+```bash
+.venv/bin/python desktop_launcher.py
+```
+
+打包后直接双击 `dist/StockAnalysis.app`（macOS）或 `StockAnalysis.exe`（Windows）。
+
+只有在源码调试时，才使用下面这种方式；它会打开系统浏览器：
 
 ```bash
 .venv/bin/streamlit run src/gp/AkShareDemo.py
 ```
 
-打开 `http://localhost:8501`，在页面顶部输入股票代码（例如 `600519`）并选择日期范围。
+应用启动后，在页面顶部输入股票代码（例如 `600519`）并选择日期范围。
 
 侧边栏可调整：
 
